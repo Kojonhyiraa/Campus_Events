@@ -1,258 +1,47 @@
-.first-fold,
-.first-fold * {
-  box-sizing: border-box;
+
+
+:root {
+
+    --light-grayish-blue: hsl(220,16%,96%);
+    --very-light-gray: hsl(0,0%,98%);
+    --grayish-blue:  hsl(233,8%,62%);
+    --bright-cyan:   hsl(192,70%,51%);
+    --lime-green:    hsl(136,65%,51%);
+    --dark-blue:     hsl(233,26%,24%);
+    --white:         hsl(0,0%,100%);
+
+--px:20px;
 }
-.first-fold {
-  position: absolute;
-  inset: 0;
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.rectangle-12 {
-  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
-  width: 1440px;
-  height: 720px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  object-fit: cover;
+
+li{list-style: none;}
+
+a{
+
+    text-decoration: none;
+    color: inherit;
 }
-.rectangle-10 {
-  background: linear-gradient(
-    118.98deg,
-    rgba(237, 70, 144, 1) 0%,
-    rgba(85, 34, 204, 1) 100%
-  );
-  opacity: 0.8999999761581421;
-  width: 1440px;
-  height: 720px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+
+button{
+    border:none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
 }
-.vector {
-  width: 40px;
-  height: 20px;
-  position: absolute;
-  left: 1264px;
-  top: 295px;
-  transform: translate(-1.17px, -41.17px);
-  overflow: visible;
+
+html{
+
+    font-family:"Public Sans",sans-serif ;
+    scroll-behavior: smooth;
 }
-.vector2 {
-  width: 40px;
-  height: 20px;
-  position: absolute;
-  left: 177px;
-  top: 255px;
-  transform: translate(-21.17px, -1.17px);
-  overflow: visible;
-}
-.rectangle-1 {
-  width: 1440px;
-  height: 70px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  box-shadow: 0px 8px 20px 0px rgba(209, 209, 209, 0.19);
-}
-.group-31 {
-  width: 515px;
-  height: 41px;
-  position: static;
-}
-.schedule {
-  color: #ffffff;
-  text-align: left;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 748px;
-  top: 34px;
-}
-.speakers {
-  color: #ffffff;
-  text-align: left;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 857px;
-  top: 34px;
-}
-.ticket {
-  color: #ffffff;
-  text-align: left;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 965px;
-  top: 34px;
-}
-.contact {
-  color: #ffffff;
-  text-align: left;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  left: 1050px;
-  top: 34px;
-}
-.frame-1 {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1.5px;
-  padding: 10px 20px 10px 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  width: 101px;
-  position: absolute;
-  left: 1162px;
-  top: 24px;
-}
-.login {
-  color: #ffffff;
-  text-align: left;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  position: relative;
-}
-.group-29 {
-  width: 152.75px;
-  height: 38.56px;
-  position: static;
-}
-.eventick {
-  color: #ffffff;
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 28.5px;
-  font-weight: 400;
-  position: absolute;
-  left: 219.75px;
-  top: 28.56px;
-}
-.eventick-span {
-  color: #ffffff;
-  font-family: "ProximaNova-Extrabold", sans-serif;
-  font-size: 28.5px;
-  font-weight: 800;
-}
-.eventick-span2 {
-  color: #ffffff;
-  font-family: "ProximaNova-Regular", sans-serif;
-  font-size: 28.5px;
-  font-weight: 400;
-}
-.ticket-2-1 {
-  width: 34.44px;
-  height: 34.44px;
-  position: absolute;
-  left: 177px;
-  top: 25px;
-  overflow: visible;
-}
-.sbs-mtv-the-kpop-show-ticket-package {
-  color: #ffffff;
-  text-align: left;
-  font-family: "ProximaNova-Bold", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  position: absolute;
-  left: 820px;
-  top: 218px;
-  width: 443px;
-}
-.look-no-further-our-sbs-the-show-tickets-are-the-simplest-way-for-you-to-experience-a-live-kpop-recording {
-  color: #ffffff;
-  text-align: left;
-  font-family: "ProximaNova-Regular", sans-serif;
-  font-size: 18px;
-  line-height: 130%;
-  font-weight: 400;
-  position: absolute;
-  left: 820px;
-  top: 342px;
-  width: 443px;
-}
-.group-2 {
-  width: 182px;
-  height: 60px;
-  position: static;
-}
-.rectangle-9 {
-  background: #f5167e;
-  border-radius: 50px;
-  width: 182px;
-  height: 60px;
-  position: absolute;
-  left: 812px;
-  top: 441px;
-  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
-}
-.get-ticket {
-  color: #ffffff;
-  text-align: center;
-  font-family: "DmSans-Bold", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  position: absolute;
-  left: 858px;
-  top: 459px;
-}
-.group-32 {
-  width: 182px;
-  height: 60px;
-  position: static;
-}
-.rectangle-92 {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1.5px;
-  width: 182px;
-  height: 60px;
-  position: absolute;
-  left: 1014px;
-  top: 441px;
-  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
-}
-.learn-more {
-  color: #ffffff;
-  text-align: center;
-  font-family: "DmSans-Bold", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  position: absolute;
-  left: 1056px;
-  top: 459px;
-}
-.group-30 {
-  width: 776px;
-  height: 488px;
-  position: static;
-}
-.ellipse-1 {
-  background: #141572;
-  border-radius: 50%;
-  width: 776px;
-  height: 91px;
-  position: absolute;
-  left: 76px;
-  top: 558px;
-  filter: blur(50px);
-}
-.pngguru-2 {
-  width: 636.84px;
-  height: 570px;
-  position: absolute;
-  left: 10%;
-  top: 200px;
-  object-fit: cover;
+
+img,span,svg{
+display: block;
+
+
 }
