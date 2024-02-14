@@ -45,3 +45,45 @@ display: block;
 
 
 }
+
+.container{
+    max-width: 1440px; 
+    margin: auto;
+
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar{
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px var(--px);
+}
+
+.navbar-toggle-btn{
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 20px;
+}
+
+.navbar-toggle-btn span{
+    display: block;
+    background: var(--dark-blue);
+    width: 25px;
+    height: 1px;
+    transition: 0.25s ease;
+}
+
+.navbar-toggle-btn.active .one{
+    
+}
